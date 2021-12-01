@@ -129,7 +129,7 @@ def pig_latin
     if word.length == 1
       new_array.push(word)
     elsif word[0] == "/aeiou/"
-      new_array.push("#{word}-ay"
+      new_array.push("#{word}-ay")
     elsif word[1].downcase == "h"
       new_word = word[2..-1]
       new_array.push("#{new_word}-#{word[0..1]}ay")
