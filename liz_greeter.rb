@@ -11,7 +11,7 @@ def food_list
   puts "Things I have consumed:-".center(100)
   puts "- I had some sesame flavoured noodles with some soy sauce and a bit of chilli oil"
   puts "- I had a packet of salt and vinegar Hula Hoops"
-  puts "- I had a little bit of cheddar cheese with a teeny big of picalilly"
+  puts "- I had a little bit of cheddar cheese with a teeny bit of picalilly"
   puts "- I had some pinot noir, which I chose because you had two of them, and because it was a screw top"
   puts ""
   puts "----------------------------------------------------------------------------------------------------"
@@ -126,7 +126,11 @@ def pig_latin
   array = string.split(" ")
   new_array = []
   array.each do |word|
-    if word[1].downcase == "h"
+    if word.length == 1
+      new_array.push(word)
+    elsif word[0] == "/aeiou/"
+      new_array.push("#{word}-ay"
+    elsif word[1].downcase == "h"
       new_word = word[2..-1]
       new_array.push("#{new_word}-#{word[0..1]}ay")
     else
