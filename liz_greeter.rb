@@ -126,8 +126,13 @@ def pig_latin
   array = string.split(" ")
   new_array = []
   array.each do |word|
-    word[1].downcase == "h" ? (new_word = word[2..-1]) : (new_word = word[1..-1])
-    new_array.push(new_word + word[0] + "ay")
+    if word[1].downcase == "h"
+      new_word = word[2..-1]
+      new_array.push("#{new_word}-#{word[0..1]}ay")
+    else
+      new_word = word[1..-1]
+      new_array.push("#{new_word}-#{word[0]}ay")
+    end
   end
   puts new_array.join(" ")
   puts ""
