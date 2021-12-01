@@ -177,15 +177,14 @@ end
 
 def jaws_quote
   quotes = ["You're gonna need a bigger boat",
-  "You know the thing about a shark, he's got lifeless eyes, black eyes, like a doll's eyes.\nWhen he comes at ya, don't seem to be livin',\ntill he bites ya. Oh, and then those black eyes roll over white, and then, ah, then you hear that terrible high-pitched screamin',\nthe ocean turns red, and despite all the poundin' and the hollerin', they all come in and they rip you to pieces",
+  "You know the thing about a shark, he's got lifeless eyes, black eyes, like a doll's eyes.\nWhen he comes at ya, don't seem to be livin'...\ntill he bites ya.\nOh, and then those black eyes roll over white, and then, ah, then you hear that terrible high-pitched screamin',\nthe ocean turns red, and despite all the poundin' and the hollerin', they all come in and they rip you to pieces",
   "Here's to swimmin' with bow-legged women",
   "Come up, fish. Come to Quint", "You have city hands, Mr. Hooper. You been countin' money all your life",
   "Ten thousand dollars for me, by myself. For that, you get the head, the tail, the whole damned thing",
   "Back home, we get a taxidermy man, he's gonna have a heart attack when he sees what I brung him",
   "It's a carcaradon carcharias. It's a Great White", "Do you want a pretzel?", "I don't need this working class hero crap!",
   "He ate the light :( ", "They caught A shark. Not THE shark", 
-  "I'm pleased and happy to repeat the news that we have, in fact, caught and killed a large predator that supposedly injured some bathers.
-  But, as you see, it's a beautiful day, the beaches are open and people are having a wonderful time. Amity, as you know, means ‘friendship'.",
+  "I'm pleased and happy to repeat the news that we have, in fact, caught and killed a large predator that supposedly injured some bathers.\nBut, as you see, it's a beautiful day, the beaches are open and people are having a wonderful time. Amity, as you know, means ‘friendship'.",
   "Not like going down the pond chasing' bluegills and tommycods. This shark, swallow you whole",
   "Well it proves one thing, Mr. Hooper. It proves that you wealthy college boys don't have the education enough to admit when you're wrong",
   "Stop playin' with yourself, Hooper", "Very first light, Chief, sharks come cruisin'"]
